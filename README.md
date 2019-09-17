@@ -37,6 +37,7 @@ output:On branch master
 
 No commits yet
 
+
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
         data.txt
@@ -117,6 +118,24 @@ Date:   Tue Sep 17 11:35:59 2019 +0530
 
     First commit of Data.txt
 =======================================================================
+13.$ git remote add mkdir commands-of-git https://github.com/imrankhan07/commands-of-git 
+=======================================================================================
+14.$ git remote show                                                                                                                                                       commands-of-git
+======================================================================================
+15.$ git remote -v                                                                                                                                                           commands-of-git https://github.com/imrankhan07/commands-of-git (fetch)
+     commands-of-git https://github.com/imrankhan07/commands-of-git (push)
+========================================================================================
+16.$ git pull commands-of-git         #pull the data                                                                                                                         fatal: unable to access 'https://github.com/imrankhan07/commands-of-git/': Failed to connect to github.com port 443: Timed out
+======================================================================================================================================
+17.$ git push -u commands-of-git     #push the data                                                                                                                         fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream commands-of-git master
+18.$ git push --set-upstream commands-of-git
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream commands-of-git master
 
 
     
